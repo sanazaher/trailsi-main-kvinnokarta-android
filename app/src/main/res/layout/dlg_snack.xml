@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    android:background="@drawable/bg_snack_8"
+    android:gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/margin_32"
+    android:paddingVertical="@dimen/margin_32">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/msg_ads_hint"
+        android:textAlignment="center"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_yes"
+            style="@style/AppTheme.RoundButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/yes"
+            android:textColor="@color/color_black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_no"
+            style="@style/AppTheme.RoundButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/no"
+            android:textAlignment="center"
+            android:textColor="@color/color_black" />
+
+    </LinearLayout>
+
+</LinearLayout>
