@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ListView
+        android:id="@+id/lst_language"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:layout_marginVertical="@dimen/margin_32"
+        tools:listitem="@layout/item_language" />
+
+</LinearLayout>

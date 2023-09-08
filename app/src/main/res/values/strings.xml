@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">Malmö Trails</string>
+    <string name="ok">OK</string>
+    <string name="map">Map</string>
+    <string name="places">Places</string>
+    <string name="downloads">Downloads</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="audio_track">Audio Track</string>
+    <string name="info">Info</string>
+    <string name="about_us">About Us</string>
+
+    <string name="location_permission_required">Location Permission Required</string>
+    <string name="location_permission_required_msg">We need location permission to get your current location.</string>
+    <string name="storage_permission_required">Storage Permission Required</string>
+    <string name="storage_permission_required_msg">We need storage permission to save contents for offline mode.</string>
+    <string name="location_disabled">GPS location is disabled</string>
+    <string name="location_disabled_msg">Your GPS location seems to be disabled on your phone. Please enable it in the settings of your phone.</string>
+    <string name="please_wait">Please wait</string>
+    <string name="downloading_content">Downloading contents</string>
+    <string name="no_audio_found">There is no audio to play for this location.</string>
+    <string name="cannot_found_file">Cannot found cloud file</string>
+    <string name="download_failed">Download Failed</string>
+    <string name="desc_check_internet">Please check internet connection to download place information.</string>
+    <string name="open_setting">Open Setting</string>
+    <string name="finish">Finish</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="msg_ads_hint">Check out our recommendation</string>
+</resources>
