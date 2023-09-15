@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.trailsi.malmo.android">
+    package="com.trailsi.kvinnokarta.android">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -13,7 +13,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name=".App"
+        android:name="com.trailsi.kvinnokarta.android.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".view.activity.splash.SplashScreenActivity"
+            android:name="com.trailsi.kvinnokarta.android.view.activity.splash.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,24 +30,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.activity.choose.ChooseLanguageActivity" />
-        <activity android:name=".view.activity.choose.ChooseAudioTourActivity" />
-        <activity android:name=".view.activity.main.MainActivity" />
-        <activity android:name=".view.activity.aboutus.AboutUsActivity" />
+        <activity android:name="com.trailsi.kvinnokarta.android.view.activity.choose.ChooseLanguageActivity" />
+        <activity android:name="com.trailsi.kvinnokarta.android.view.activity.choose.ChooseAudioTourActivity" />
+        <activity android:name="com.trailsi.kvinnokarta.android.view.activity.main.MainActivity" />
+        <activity android:name="com.trailsi.kvinnokarta.android.view.activity.aboutus.AboutUsActivity" />
 
         <service
-            android:name=".controller.service.SyncService"
+            android:name="com.trailsi.kvinnokarta.android.controller.service.SyncService"
             android:enabled="true"
             android:exported="false" />
 
         <service
-            android:name=".controller.service.TempForegroundService"
+            android:name="com.trailsi.kvinnokarta.android.controller.service.TempForegroundService"
             android:enabled="true"
             android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.trailsi.malmo.android.provider"
+            android:authorities="com.trailsi.kvinnokarta.android.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
